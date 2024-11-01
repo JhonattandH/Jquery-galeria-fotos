@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: azure;
+    justify-content: center;
+    width: 100%;
+}
+
+header{
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(44, 43, 43);
+    border-bottom: 8px solid #19192b;
+    text-transform: uppercase;
+    display: flex;
+    padding: 16px 0;
+    justify-content: center;
+}
+
+header button{
+    margin-left: 24px;
+}
+
+form{
+    background-color: rgb(97, 97, 97);
+    text-align: center;
+    padding: 18px;
+    display: none;
+}
+
+form h2{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+input{
+    padding: 8px;
+}
+
+button{
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(60, 240, 60);
+    padding: 8px;
+    cursor: pointer;
+}
+
+#botao-cancelar{
+    background-color: red
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li{
+    max-width: 25%;
+    list-style: none;
+    position: relative;
+    max-height: 280px;
+    overflow-y: hidden;
+}
+
+ul li :hover{
+    opacity: 1;
+}
+
+ul li img{
+    width: 100%;
+}
+
+.overlay-imagem-link{
+    padding: 16px;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+}
+
+.overlay-imagem-link a{
+    color: #fff;
+    text-decoration: none;
+
+}
